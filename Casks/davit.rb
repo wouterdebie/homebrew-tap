@@ -5,7 +5,7 @@ cask "davit" do
   url "https://github.com/wouterdebie/davit/releases/download/v#{version}/Davit-#{version}.zip",
       verified: "github.com/wouterdebie/davit/"
   name "Davit"
-  desc "Native macOS UI for Apple's container platform"
+  desc "UI for Apple's container platform"
   homepage "https://davit.app/"
 
   livecheck do
@@ -14,7 +14,7 @@ cask "davit" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
   depends_on arch: :arm64
 
   app "Davit.app"
