@@ -2,7 +2,8 @@ cask "davit" do
   version "0.1.2"
   sha256 "47711db431db09eb82d25bc10e32cc3af4ba594832c7abdfd418a7569e52b227"
 
-  url "https://github.com/wouterdebie/davit/releases/download/v#{version}/Davit-#{version}.zip"
+  url "https://github.com/wouterdebie/davit/releases/download/v#{version}/Davit-#{version}.zip",
+      verified: "github.com/wouterdebie/davit/"
   name "Davit"
   desc "Native macOS UI for Apple's container platform"
   homepage "https://davit.app/"
