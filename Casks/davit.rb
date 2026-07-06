@@ -8,7 +8,7 @@ cask "davit" do
   homepage "https://davit.app/"
 
   livecheck do
-    url :url
+    url "https://github.com/wouterdebie/davit"
     strategy :github_latest
   end
 
